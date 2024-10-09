@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CabecalhoComponent should render the content based in inputs alt and src 1`] = `
+CabecalhoComponent {
+  "__ngContext__": 4,
+  "alt": "Teste",
+  "src": "https://teste.com/teste.jpg",
+}
+`;
