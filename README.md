@@ -1,4 +1,4 @@
-# Esse é bom
+# Esse é bom, porém, é necessário se aprofundar mais um pouco em outro curso ou algo do tipo pra buscar testes mais avançados.
 
 ![Thumbnail](./thumb.png)
 
