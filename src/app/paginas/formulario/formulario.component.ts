@@ -5,6 +5,7 @@ import { Router, RouterLink } from '@angular/router';
 import { GeneroLiterario, Livro } from '../../componentes/livro/livro';
 import { LivroService } from '../../services/livro.service';
 import { AvaliacaoEstrelasComponent } from '../../componentes/avaliacao-estrelas/avaliacao-estrelas.component';
+import { TestIdDirective } from '../../directives/test-id.directive';
 
 @Component({
   selector: 'app-formulario',
@@ -12,7 +13,8 @@ import { AvaliacaoEstrelasComponent } from '../../componentes/avaliacao-estrelas
   imports: [
     ReactiveFormsModule,
     AvaliacaoEstrelasComponent,
-    RouterLink
+    RouterLink,
+    TestIdDirective
   ],
   templateUrl: './formulario.component.html',
   styleUrl: './formulario.component.css'
