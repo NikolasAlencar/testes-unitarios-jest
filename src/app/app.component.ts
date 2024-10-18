@@ -4,6 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component';
 import { RodapeComponent } from './componentes/rodape/rodape.component';
 import { TestIdDirective } from './directives/test-id.directive';
+import { saveDataTestIds } from '../../download-testid';
 
 @Component({
   selector: 'app-root',
@@ -13,11 +14,13 @@ import { TestIdDirective } from './directives/test-id.directive';
     RouterOutlet,
     CabecalhoComponent,
     RodapeComponent,
-    TestIdDirective
+    TestIdDirective,
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'organo';
+
+  saveDataTestIds = () => saveDataTestIds();
 }
